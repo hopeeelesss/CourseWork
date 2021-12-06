@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Рейтинг клубов</title>
+        <link rel="shortcut icon" href="img/mouse48.png" type="image/png">
+        <link rel="stylesheet" href="structure.css" type="text/css">
+        <link rel="stylesheet" href="design.css" type="text/css">
+        <link rel="stylesheet" href="rating.css" type="text/css">
+    </head>
+    <body class="container">
+            <header>
+                    <img src="img/mouse.png" alt="" class="logo">
+                    &nbsp;&nbsp;&nbsp;Интернет-ресурс на тему "Киберспорт"
+            </header>
+            <nav>
+                    <ul class="menu">
+                        <li><a href="homepage.html">Статьи</a></li>
+                        <li><a href="rating.html">Рейтинг клубов</a></li>
+                    </ul>
+            </nav>
+            <aside class="left">
+                
+            </aside>
+            <main id="rating">
+                <div id="head" class="team">
+                   <div>Призовые за все время (на 02.12.2021)</div> 
+                </div>
+                <div class="team">
+                    <p class="num">#1</p>
+                    <img src="img/logo/Team_Liquid_logo.svg" alt="" 
+                    title="Team Liquid">
+                    <p class="name">Team Liquid</p>
+                    <p class="money">$37 877 076</p>
+                </div>
+                <div class="team">
+                    <p class="num">#2</p>
+                    <img src="img/logo/OGLogo.png" alt="" 
+                    title="OG Gaming">
+                    <p class="name">OG Gaming</p>
+                    <p class="money">$35 629 723</p>
+                </div>
+                <div class="team">
+                    <p class="num">#3</p>
+                    <img src="img/logo/Crest-Dark-1.png" alt="" 
+                    title="Evil Geniuses">
+                    <p class="name">Evil Geniuses</p>
+                    <p class="money">$25 544 431</p>
+                </div>
+                <div class="team">
+                    <p class="num">#4</p>
+                    <img src="img/logo/Logo_team_spirit.svg.png" alt="" 
+                    title="Team Spirit">
+                    <p class="name">Team Spirit</p>
+                    <p class="money">$19 836 122</p>
+                </div>
+                <div class="team">
+                    <p class="num">#5</p>
+                    <img src="img/logo/Virtus.proLogo.png" alt="" 
+                    title="Virtus.pro">
+                    <p class="name">Virtus.pro</p>
+                    <p class="money">$17 752 363</p>
+                </div>
+                <div class="team">
+                    <p class="num">#6</p>
+                    <img src="img/logo/fnatic.png" alt="" 
+                    title="Fnatic">
+                    <p class="name">Fnatic</p>
+                    <p class="money">$17 371 844</p>
+                </div>
+                <div class="team">
+                    <p class="num">#7</p>
+                    <img src="img/logo/Team_Secret_logo_notext.png" alt="" 
+                    title="Team Secret">
+                    <p class="name">Team Secret</p>
+                    <p class="money">$15 964 522</p>
+                </div>
+                <div class="team">
+                    <p class="num">#8</p>
+                    <img src="img/logo/NAVI_Logo.svg.png" alt="" 
+                    title="Natus Vincere">
+                    <p class="name">Natus Vincere</p>
+                    <p class="money">$15 850 695</p>
+                </div>
+                <div class="team">
+                    <p class="num">#9</p>
+                    <img src="img/logo/t3.png" alt="" 
+                    title="Paris Saint-Germain Esports">
+                    <p class="name">Paris Saint-Germain Esports</p>
+                    <p class="money">$15 589 648</p>
+                </div>
+                <div class="team">
+                    <p class="num">#10</p>
+                    <img src="img/logo/Vici_Gaming_logo_notext.png" alt="" 
+                    title="Vici Gaming">
+                    <p class="name">Vici Gaming</p>
+                    <p class="money">$15 017 723</p>
+                </div>
+            </main>
+            <aside class="right">
+                
+            </aside>
+            <footer>
+                <script type="text/javascript">
+                    function clock(){
+                    let date = new Date(),
+                    hours = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours(),
+                    minutes = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes(),
+                    seconds = (date.getSeconds() < 10) ? '0' + date.getSeconds() : date.getSeconds();
+                    document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
+                }
+                setInterval(clock, 1000);
+                </script>
+                <p id="clock"></p>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+.container{
+    min-height: 100vh;
+    display: grid;
+}
+@media (max-width: 600px) and (max-width:1023px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    header,nav,footer{
+       min-height: 5vh;
+    }
+    main{
+       min-height: 70vh;
+    }
+    .left{
+       min-height: 14vh;
+       grid-row-start:4;
+       grid-row-end: 5;
+    }
+}
+@media(min-width:1024px) {
+    .container{
+        grid-template-columns: 1fr 6fr 1fr;
+    }
+    header,nav,footer{
+        min-height: 5vh;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    main,aside{
+        min-height: 84vh;
+    }
+}

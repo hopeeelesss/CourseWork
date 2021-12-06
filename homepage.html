@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Начальная страница</title>
+        <link rel="shortcut icon" href="img/mouse48.png" type="image/png">
+        <link rel="stylesheet" href="structure.css" type="text/css">
+        <link rel="stylesheet" href="design.css" type="text/css">
+        <link rel="stylesheet" href="homepage.css" type="text/css">
+    </head>
+    <body class="container">
+            <header>
+                    <img src="img/mouse.png" alt="" class="logo">
+                    &nbsp;&nbsp;&nbsp;Интернет-ресурс на тему "Киберспорт"
+            </header>
+            <nav>
+                    <ul class="menu">
+                        <li><a href="homepage.html">Статьи</a></li>
+                        <li><a href="rating.html">Рейтинг клубов</a></li>
+                    </ul>
+            </nav>
+            <aside class="left">
+                
+            </aside>
+            <main class="mainmenu">
+                <article class="listmenu">
+                    <img src="img/navicsgo.jpg" alt="">
+                    <a href="article1.html">Игроки украинского клуба "Natus Vincere" выиграли 
+                        турнир по CS:GO на 2.000.000$</a>
+                </article>
+                <article class="listmenu">
+                    <img src="img/teamspirit.jpg" alt="">
+                    <a href="article2.html">Игроки российского клуба "Team Spirit" выиграли 
+                        турнир по Dota 2 на 40.018.185$ </a>
+                </article>
+                <article class="listmenu">
+                    <img src="img/iemwinter.png" alt="">
+                    <a href="article3.html">Определились все участники IEM Winter 2021</a>
+                </article>
+                <article class="listmenu">
+                    <img src="img/simple.jpg" alt="">
+                    <a href="article4.html">S1mple дал интервью после победы над Vitality</a>
+                </article>
+            </main>
+            <aside class="right">
+                
+            </aside>
+            <footer>
+                <script type="text/javascript">
+                    function clock(){
+                    let date = new Date(),
+                    hours = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours(),
+                    minutes = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes(),
+                    seconds = (date.getSeconds() < 10) ? '0' + date.getSeconds() : date.getSeconds();
+                    document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
+                }
+                setInterval(clock, 1000);
+                </script>
+                <p id="clock"></p>
+            </footer>
+    </body>
+</html>
